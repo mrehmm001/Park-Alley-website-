@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(33, 33, 33);
+}
+
+h2{
+    color: yellow
+}
+
+p{
+    color: 
+}
+
+#subForm{
+    background-color:
+}
+
+#pass1,#pass3{
+    background-color: rgb(61, 61, 61);
+}
+#pass2{
+    background-color:rgb(84, 84, 84);
+}
+
+.box{
+    background-color:rgb(61, 61, 61);
+    border: 2px solid rgb(33, 33, 33);;
+}
+.box:hover{
+    background-color:rgb(84, 84, 84);
+}
+.subHeading{
+    background-color:rgb(171, 171, 171);;
+}
+#subForm{
+    background-color: rgb(61, 61, 61);
+}
+.item:hover{
+    background-color: rgb(61, 61, 61);
+}
+#row .fas,.far{
+    color: yellow;
+}
+
+/*Info page colours*/
+.transport-option{
+    background-color: rgb(84, 84, 84)
+}
+#transport-option-toggled1,#transport-option-toggled2,#transport-option-toggled3,#transport-option-toggled4{
+    background-color: rgb(61, 61, 61);
+}

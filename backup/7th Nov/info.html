@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <title>ParkAlley</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A fun park for everyone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1d87a9cfe7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+           
+            <div class="header">
+                <div class="logo">
+                        <a href="index.html">PARKALLEY</a>
+                </div>
+                <input type="checkbox" id="Toggle">
+                <nav class= "nav" align=right>
+                    <label id="drop-down-menu" for="Toggle">&#9776;</label>
+                    <ul>
+                        <li><a class="selected" href="">Tickets</a></li>
+                        <li><a class="selected" href="">Short breaks</a></li>
+                        <li><a class="selected" href="">Info</a></li>
+                        <li><a class="selected" href="events.html">Events</a></li>
+                        <li><a class="selected" href="">Childrens section</a></li>
+
+                    </ul>
+                </nav>        
+                    
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="banner" align=center>
+                <p class="item-1">OPENING TIMES</p>
+            </div>
+            <div id="callender"></div>
+        </div>
+        <div class="info-container">
+            <div class="banner" align=center>
+                <p class="item-1">Transport</p>
+            </div>
+            <div id="transport-options-container">
+                <label for="Toggle-option1"><div class="transport-option">car</div></label>
+                <input type="checkbox" id="Toggle-option1">
+                <div id="transport-option-toggled1"></div>
+                <label for="Toggle-option2"><div class="transport-option">TRAIN</div></label>
+                <input type="checkbox" id="Toggle-option2">
+                <div id="transport-option-toggled2"></div>
+                <label for="Toggle-option3"><div class="transport-option">BUS</div></label>
+                <input type="checkbox" id="Toggle-option3">
+                <div id="transport-option-toggled3"></div>
+                <label for="Toggle-option4"><div class="transport-option">CYCLE</div></label>
+                <input type="checkbox" id="Toggle-option4">
+                <div id="transport-option-toggled4"></div>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="banner" align=center>
+                <p class="item-1">Location</p>
+            </div>
+        </div>
+        <div id="subForm">
+            <h2>Sign up to recieve newsletters</h2>
+            <ul>
+                <div id="textBox1">
+                    <p>First-Name</p>
+                    <input type="text" name="firstname" value="FirstName">
+                </div>
+                <div id="textBox2">
+                    <p>Second-Name</p>
+                    <input type="text" name="secondname" value="Secondname">
+                </div>
+            </ul>
+            <p><input type="checkbox">I agree to recieve information about ParkAlley through email</p>
+            <p><input type="checkbox">I have read and accepted privacy policy</p>
+            <button>Subscribe!</button>
+        </div>
+        <footer align=center>
+        </footer>  
+    </body>
+</html>
+    
+    

@@ -1,0 +1,390 @@
+*{
+    font-family: 'Staatliches', cursive;
+    max-width: 5000px;
+}
+
+head,body,html{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    background: url(images/test.png);
+}
+.header{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+#Toggle{
+    display: none;
+}
+label{
+    display: none;
+}
+.nav{
+    background-color: rgba(0,0,0,0.8);
+    padding-bottom: 10px;
+    padding-top:10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav ul{
+    padding:0px;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding:100px;
+    flex:1;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.nav a:hover{
+    background-color: rgb(0,0,0);
+    text-shadow: 2px 2px red;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.logo a{
+    padding:10px;
+    text-decoration: none;
+    font-size: 500%;
+    color: white;
+    border:5px solid white;
+    text-shadow: 2px 2px purple;
+    box-shadow: 2px 2px purple;
+}
+.logo a:hover{
+    background-color:rgba(0,0,0,0.5);
+    text-shadow: 2px 2px orange;
+    box-shadow: 2px 2px orange;
+}
+
+.banner{
+    background-color: black;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    position:relative;
+}
+.banner p{
+    margin: 0;
+    position:center;
+    transform: translate(-0%, 15%);
+}
+.menuBar{
+    display: flex;
+}
+.menuBar div{
+    flex:1;
+    background-color: rgb(128, 0, 173);
+    padding: 20px;
+}
+.menuBar h2{
+    display: flex;
+    margin: 0px;
+    color: orange;
+}
+
+.menuBar p{
+    display: flex;
+    margin: 0px;
+    color: white;
+    margin-left: 45px;
+}
+#pass2{
+    background-color: rgb(157, 0, 212);
+}
+.menuBar a{
+    float:right;
+    margin-left: auto;
+    margin-top: -25px;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 30px;
+}
+.menuBar a:hover{
+    color:yellow;
+    border: 4px yellow solid;
+    background-color: royalblue;
+    text-shadow: 2px 2px red;
+}
+
+.fa{
+    float: left;
+    color: white;
+    font-size: 300%;
+    margin-left: 40px;
+    transform: translate(-60%,10%);
+}
+
+#pass2 .fa{
+    color: gold;
+}
+.content1{
+    height: 250px;
+    background-color: rgb(76, 3, 102);
+    padding:0;
+    text-align: center;
+}
+.content1 h2{
+    margin: 0px;
+    padding: 20px;
+    color:orange;
+}
+.content1 div{
+    display:inline-block;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 20px;
+    margin-top: 50px
+}
+.content1 div a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    border: 5px white solid;
+    border-radius: 30px;
+}
+
+.content1 div a:hover{
+    color:yellow;
+    border: 5px yellow solid;
+    background-color: royalblue;
+    border-radius: 30px;
+    text-shadow: 2px 2px red;
+}
+
+.subHeading {
+    color: white;
+    background-color: black;
+    height:50px;
+}
+.subHeading h2{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px orange;
+}
+
+.content2{
+    background-color: rgb(76, 3, 102);
+}
+.content2 #cover{
+    display: flex;
+    background-color: rgb(76, 3, 102);   
+}
+.content2 ul{
+    flex:1;
+    margin: 0px;
+    padding: 0px;
+    height:120px;   
+    display: flex;
+    
+}
+.content2 h2{
+    text-align: center;
+    color:orange;
+}
+.content2 p{
+    text-align: center;
+    color: white;
+}
+.content2 .container{
+    height:400px;
+    width:300px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px
+}
+.content2 .box-containers{
+    text-align: center;
+    
+}
+.box{
+    background-color: blue;
+    height: 100%;
+    flex: 1;
+    background-color: rgb(128, 0, 173);
+    border:1px solid rgb(76, 3, 102);
+    
+}
+.box img{
+    width:60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+.box p{
+    color:white;
+    text-align: center;
+    text-shadow: 1px 1px orange;
+    font-size: 14px;
+    margin: 10px;
+}
+.content3{
+    margin: 0 auto;
+    background:url(images/background1.jpg);
+    background-size: cover;
+}
+.content3 h4{
+    margin: 0px;
+}
+.content3 .info{
+    color:white;
+    font-weight: 900;
+    padding: 20px 20px 20px 40%;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.content4 .infoBox{
+    height:700px;
+    width:500px;
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+}
+
+footer{
+    height: 100px;
+    display: block;
+    background-color: black;
+}
+
+
+
+
+
+
+/*This is for the responsivenes, is the screen width falls below 700px, all the CSS under this will be called*/
+@media screen and (max-width:700px){
+    .header{
+        height:500px;
+    }
+    .logo a{
+    font-size: 300%;
+    }
+    .nav a{
+        display: none;
+        padding: 5px;
+        margin:10px;
+
+    }
+    .nav{
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        
+        
+    }
+    label{
+        float: left;
+        display: block;
+        margin:10px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+    .nav ul{
+        padding:6px;
+        transform:scale(1,0);
+        margin-top: 0px;
+        
+    }
+
+    #Toggle{
+        background-color:rgba(0,0,0,0.8);
+        display:hidden;
+    }
+    
+    #Toggle:checked + .nav a{
+        display:flex;
+        margin-top: 4px
+    }
+    #Toggle:checked + .nav ul{
+        transform:scale(1);
+        transform-origin:top;
+        transition: transform 400ms ease-in-out;
+        margin-top: 41px;
+    }
+    
+    .content1{
+        height:340px;
+    }
+    .content1 div{
+        margin: 0;
+        display: block;
+    }
+    .content2 #cover{
+    display: block;
+    
+    
+    }
+        
+    .content3 .info{
+    color:white;
+    text-shadow: 1px 1px black;
+    font-weight: 900;
+    padding: 10px 10px 10px 10%;
+    }
+    .content4 .infoBox{
+    height:700px;;
+    width:70%;
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+    }
+    .menuBar{
+    display: block;
+    }
+    
+}
+
+
+r
+@media screen and (max-width:1377px){
+    .logo a{
+    font-size: 300%;
+    }
+    .nav a{
+    padding-left:70px;
+    padding-right:70px;
+    }
+
+}
+@media screen and (max-width:826px){
+    .content2 figure{
+        width:100%;
+        height:250px;
+    }
+}
+@media screen and (max-width:1393px){
+    .nav a{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+}

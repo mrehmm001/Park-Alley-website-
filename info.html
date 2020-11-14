@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <title>ParkAlley</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A fun park for everyone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+        <link rel = "stylesheet" type = "text/css" href = "colours.css" />
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1d87a9cfe7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">
+           
+            <div class="header">
+                <div class="logo">
+                        <a href="index.html">INFO</a>
+                        <p>Found out everything about us.</p>
+                </div>
+                <input type="checkbox" id="Toggle">
+                <nav class= "nav" align=right>
+                    <div class="nav-logo"><img src="images/Logo/logo.png"></div>
+                    <label id="drop-down-menu" for="Toggle">&#9776;</label>
+                    <ul>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a href="shortbreaks.html">Short breaks</a></li>
+                        <li><a class="active" href="info.html">Info</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="rides.html">Rides</a></li>
+
+                    </ul>
+                </nav>        
+                <div class="cover-img">
+                    <div class="overlay"></div>
+                    <video class="promo-video" src="images/index-banner.mp4" autoplay muted loop></video>                    
+                </div> 
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="subHeading">
+                    <h2>OPENING TIMES</h2>
+                </div>
+            <div id="callender-label">
+                <div class="label-info">
+                    <div class="label" id="label1"></div>
+                    <p>10am-7pm</p>
+                </div>    
+                <div class="label-info">
+                    <div class="label" id="label2"></div>
+                    <p>10am-8pm</p>
+                </div> 
+                <div class="label-info">
+                    <div class="label" id="label3"></div>
+                    <p>closed</p>
+                </div> 
+                <div class="label-info">
+                    <div class="label" id="label4"></div>
+                    <p>Event</p>
+                </div>            
+            </div>
+            <div id="callender"><iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%239E69AF&amp;ctz=Europe%2FLondon&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+        </div>
+        <div class="info-container">
+            <div class="subHeading">
+                    <h2>TRANSPORT</h2>
+            </div>
+            <div id="transport-options-container">
+                <!--<p>Here are all the possible ways of reaching us!</p>-->
+                <div id="parkalley-location-detail">
+                    <div><h2>Where we located?</h2><br><p> We are located just 30 miles away from London, in a little town called Eddlewood, ML3 1UD, Park Row. There is plenty of ways to get to us.</p></div>
+                    <div><h2>GPS Address</h2><br><p> ParkAlley Theme park<br>Eddlewood<br>ML3 1UD<br>Park Row</p></div>
+                    <div><h2>Incase</h2><br><p>Incase if you cannot find us, look for huge rollercoaster and, that's where we'll be meeting you!</p></div>
+                </div>
+                <label for="Toggle-option1"><div class="transport-option"><i class="fas fa-car"></i>car</div></label>
+                <input type="checkbox" id="Toggle-option1">
+                <div id="transport-option-toggled1"><p><span>FREE parking</span> is available for customers, only a valid ticket is requested upon arrival. Find your perfect route using <a href="https://www.google.com/maps">https://www.google.com/maps</a>. A parkalley shuttle is also available from the parking lot to the amusement park FREE OF CHARGE!Take junction 15c on the A3 and access the passenger terminal. Parkalley is just a 40 minute drive from central London. Taxi services are also available going in and out of the amusement park parking lot. </p>
+                
+                </div>
+                <label for="Toggle-option2"><div class="transport-option"><i class="fas fa-train"></i>TRAIN</div></label>
+                <input type="checkbox" id="Toggle-option2">
+                <div id="transport-option-toggled2"><p>With three train stations in a mile radius of the park, travelling to Parkalley could not have been easier, whether you’re travelling from outside of London, we are located <span>5 miles away from Waterloo station</span> and a bus shuttle service is also running from the station to the Parkalley gate. Enjoy EXCLUSIVE retail offers at the terminal before departure. A shuttle service is also available from the train station to the amusement park gates <span>FREE OF CHARGE!</span></p></div>
+                <label for="Toggle-option3"><div class="transport-option"><i class="fas fa-bus"></i>BUS</div></label>
+                <input type="checkbox" id="Toggle-option3">
+                <div id="transport-option-toggled3"><p>With <span>20 bus stops</span> covering every gate of Parkalley, travelling by bus could not have been more convenient, with links of bus routes travelling from every part of London. Plan your route before hand on <a href="https://tfl.gov.uk/">https://tfl.gov.uk/</a>  to avoid any delays. <span>Hyde station</span> is 2.5 miles away from the Parkalley which offers services to both, Heathrow and Gatwick airport.</p></div>
+                <label for="Toggle-option4"><div class="transport-option"><i class="fas fa-bicycle"></i>CYCLE</div></label>
+                <input type="checkbox" id="Toggle-option4">
+                <div id="transport-option-toggled4"><p>There are cycle paths surrounding every gate of Parkalley, a separate parking space for cyclists is also available.  Beat the traffic by cycling to park alley!. Also automatically enter our ‘keeping healthy’ scheme when you cycle to the park, and WIN an extra hour of fun in the amusement park! </p></div>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="subHeading">
+                <h2>Locaiton</h2>
+            </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39760.56798560904!2d-115.82281480599319!3d37.23609114560762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE0JzIxLjAiTiAxMTXCsDQ4JzEzLjAiVw!5e0!3m2!1sen!2suk!4v1573077617187!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="subHeading">
+                <h2>rides</h2>
+            </div>
+            <div id="rides-section">
+                <ul>
+                    <h2>Endless FUN</h2>
+                    <a href="rides.html">See all our rides</a>
+                </ul>
+            </div>
+            <div class="subHeading">
+                <h2>FAQ</h2>
+            </div>
+            <div id="FAQ-section">
+                <div class="FAQ">
+                    <div class="question">How long is the average wait time for the rides?</div>
+                    <div class="answer">On weekends in the summer season, wait times can be upwards of 45 minutes for the most popular rides. It really depends on the weather on the day, sometimes it can be an hour but sometimes it can be 5 minutes or less.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Are there parking zones available? If so, how much do they cost?</div>
+                    <div class="answer">We do have dedicated parking areas! These cost £4.00 for 2 hours, £6.00 for half a day and £12.00 for a full day.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Where can I get a ParkAlley map?</div>
+                    <div class="answer">You can view the ParkAlley map on our site and download it from there. Or, you can pick one up after going through the entrance into the park. These will be given out for free at the information hut.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Are there cash points available?</div>
+                    <div class="answer">Yes, we have 8 cash points dotted about the theme park. You shouldn’t have any trouble finding one!</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">If I leave the theme park, am I allowed to come back in on the same day?</div>
+                    <div class="answer">As long as you keep your wristband on (you will receive it when you first enter), you are free to come back after leaving on the same day.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Do you allow pets in the theme park?</div>
+                    <div class="answer">Unfortunately, due to allergies and phobias that some other visitors may have who visit the park, we do not permit pets to be brought onto the premises.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Can I bring my own food and drinks to ParkAlley?</div>
+                    <div class="answer">Yes, you are allowed to bring your own picnic if you like. We also have dedicated picnic spots dotted around the park for places to sit and eat.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Do you have facilities available for people with disabilities?</div>
+                    <div class="answer">Yes, we have disabled access to all of our rides and we also provide assistance if it needed. Just ask one of the staff!</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Is there a place dedicated to dropping people off and picking people up?</div>
+                    <div class="answer">Yes, next to the parking zones we have short stay drop off and pick up zones. These are free.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Where do I collect my tickets?</div>
+                    <div class="answer">At the ticket office at the entrance you can give your name and reference number. We can then print off your ticket and give to you to go through the turnstiles. Or, you can print your ticket off yourself with the download link in the confirmation email and bring it with you on the day.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Do you offer a season pass?</div>
+                    <div class="answer">We do offer a season pass! See our prices page for more info.</div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">How old do you have to be to come for a day at ParkAlley?</div>
+                    <div class="answer">Anybody is allowed at ParkAlley, but you must be 14 years old to come without an adult. </div>
+                </div>
+                <div class="FAQ">
+                    <div class="question">Can I go on rides if I am pregnant?</div>
+                    <div class="answer">There are certain rides that you will not be able to go on while pregnant because of them having too much speed and winding turns. However, there are also rides that you can go on while pregnant. See our map for rides that are highlighted as being pregnant </div>
+                </div>
+            
+            </div>
+        </div>
+        <div id="subForm">
+            <h2>Sign up to recieve newsletters</h2>
+            <ul>
+                <div id="textBox1">
+                    <p>First-Name</p>
+                    <input type="text" name="firstname" value="FirstName">
+                </div>
+                <div id="textBox2">
+                    <p>Second-Name</p>
+                    <input type="text" name="Email" value="Email">
+                </div>
+            </ul>
+            <p><input type="checkbox">I agree to recieve information about ParkAlley through email</p>
+            <p><input type="checkbox">I have read and accepted privacy policy</p>
+            <button>Subscribe!</button>
+        </div>
+        <footer>
+            <div class="footer-content 1"id="section1">
+                <h2>ParkAlley Theme park</h2>
+                <p>ParkAlley Theme park</p>
+                <p>Eddlewood</p>
+                <p>Eddlewood, ML3 1UD, Park Row</p>
+                <p>Telephone: 078 8151 6888</p>
+                <div id="social-media">
+                    <a href=#><i class="fab fa-facebook-f"></i></a>
+                    <a href=#><i class="fab fa-twitter"></i></a>
+                    <a href=#><i class="fab fa-instagram"></i></a>
+                    <a href=#><i class="fab fa-youtube"></i></a>
+                    <a href=#><i class="fab fa-tripadvisor"></i></a>
+                </div>         
+            
+            </div>
+            <div class="footer-content" id="section2">
+                <h2>Links</h2>
+                <ul>
+                    <a href=tickets.html>Tickets</a>
+                    <a href=shortbreaks.html>Short breaks</a>
+                    <a href=info.html>Info</a>
+                    <a href=events.html>Events</a>
+                </ul>
+                <ul>
+                    <a href=rides.css>rides</a>
+                    <a href=#>Cookie policy</a>
+                    <a href=info.html>FAQ</a>
+                    <a href=info.html>Contact us</a>
+                </ul>
+            
+            
+            </div>
+            <div class="footer-content" id="section3">
+                <h2>Main Links</h2>
+                <div id="links">
+                    <a href="info.html">Opening times</a>
+                    <a href="tickets.html">Book a ticket!</a>
+                    <a href="shortbreaks.html">Short Breaks</a>
+                </div>    
+            
+            </div>
+        </footer>
+        <div id="footer-bottom">
+            <p>&copy;Copyright 2019 ParkAlley theme park</p>
+        </div>
+    </body>
+</html>
+    
+    

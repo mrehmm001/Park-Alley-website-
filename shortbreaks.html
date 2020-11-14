@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <title>ParkAlley</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A fun park for everyone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+        <link rel = "stylesheet" type = "text/css" href = "colours.css" />
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1d87a9cfe7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">           
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">PARKBREAKS</a>
+                    <p>Sale! 40% off all hotel passes</p>
+                </div>
+                <input type="checkbox" id="Toggle">
+                <nav class= "nav" align=right>
+                    <div class="nav-logo"><img src="images/Logo/logo.png"></div>
+                    <label id="drop-down-menu" for="Toggle">&#9776;</label>
+                    <ul>
+                        <li><a href="tickets.html">Tickets</a></li>
+                        <li><a class="active" href="shortbreaks.html">Short breaks</a></li>
+                        <li><a href="info.html">Info</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="rides.html">Rides</a></li>
+
+                    </ul>
+                </nav>
+                <div class="cover-img">
+                    <div class="overlay"></div>
+                    <video class="promo-video" src="images/shortbreaks-images/shortbreak-banner.mp4" autoplay muted loop></video>                    
+                </div> 
+                    
+            </div>
+        </div>
+        <div class="subHeading">
+            <h2>Hotels</h2>
+        </div>
+        <div class="shortbreaks-content">
+            <div class="container">
+                
+                
+                <label class="hotel-option-info" id="hotel1" for="toggle1">
+                    <h2>park-VALLEY</h2>
+                    <div class="filter"></div>
+                </label>
+                <input type="checkbox" id="toggle1">
+                <div id="hotel-info-popup">
+                    <div id="hotel-1-info">
+                        <label for="toggle1"><i class="fas fa-times"></i></label>
+                        <div class="about-hotel">
+                            <div>
+                            <h2>park-VALLEY</h2>
+                            <p>
+                                    Want to end the night on a good note? Then why not book a reservation in our Park villas with delicious breakfast served, FREE OF CHARGE!
+Enjoy a warm relaxing night in ONE big villa after a WHOLE day of frights! 
+BOOK NOW and get 50% off second day tickets. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <label class="hotel-option-info" id="hotel2" for="toggle2">
+                    <h2>Park inn</h2>
+                    <div class="filter"></div>
+                </label>
+                <input type="checkbox" id="toggle2">
+                <div id="hotel-info-popup2">
+                    <div id="hotel-2-info">
+                        <label for="toggle2"><i class="fas fa-times"></i></label>
+                        <div class="about-hotel"> 
+                            <div>
+                            <h2>Park inn</h2>
+                            <p>
+                                    Want to end the night on a good note? Then why not book a reservation in our Park villas with delicious breakfast served, FREE OF CHARGE!
+Enjoy a warm relaxing night in ONE big villa after a WHOLE day of frights! 
+BOOK NOW and get 50% off second day tickets. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <label class="hotel-option-info" id="hotel3" for="toggle3">
+                    <h2>Hotel holiday</h2>
+                    <div class="filter"></div>
+                </label>
+                <input type="checkbox" id="toggle3">
+                 <div id="hotel-info-popup3">
+                     <div id="hotel-3-info">
+                         <label for="toggle3"><i class="fas fa-times"></i></label>
+                         <div class="about-hotel">
+                             <div>
+                             <h2>Hotel holiday</h2>
+                            <p> Want to end the night on a good note? Then why not book a reservation in our Park villas with delicious breakfast served, FREE OF CHARGE!
+Enjoy a warm relaxing night in ONE big villa after a WHOLE day of frights! 
+BOOK NOW and get 50% off second day tickets. 
+                                </p>
+                            </div>
+                             
+                        </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+        <div class="subHeading">
+            <h2>Deals!</h2>
+        </div>
+        <div class="shortbreaks-content">
+            <div id="deal">
+            
+                <h2>£1 deposit, pay later!</h2>
+            
+            </div>
+        </div>
+        <div class="subHeading">
+            <h2>When you can book</h2>
+        </div>
+        <div id="choose-date">           
+            <div class="container2">
+                <div id="callender">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%239E69AF&amp;ctz=Europe%2FLondon&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <div class="container2">
+                <div id="callender-info">
+                    <p>Here you can choose when to book</p>
+                    <p>date: <input type="date"></p>
+                    <p>name: <input type="text"></p>
+                    <p>email: <input type="text"></p>
+                </div>
+            </div>
+        </div>       
+        <div id="subForm">
+            <h2>Sign up to recieve newsletters</h2>
+            <ul>
+                <div id="textBox1">
+                    <p>First-Name</p>
+                    <input type="text" name="firstname" value="FirstName">
+                </div>
+                <div id="textBox2">
+                    <p>Second-Name</p>
+                    <input type="text" name="Email" value="Email">
+                </div>
+            </ul>
+            <p><input type="checkbox">I agree to recieve information about ParkAlley through email</p>
+            <p><input type="checkbox">I have read and accepted privacy policy</p>
+            <button>Subscribe!</button>
+        </div>
+        <footer>
+            <div class="footer-content 1"id="section1">
+                <h2>ParkAlley Theme park</h2>
+                <p>ParkAlley Theme park</p>
+                <p>Eddlewood</p>
+                <p>Eddlewood, ML3 1UD, Park Row</p>
+                <p>Telephone: 078 8151 6888</p>
+                <div id="social-media">
+                    <a href=#><i class="fab fa-facebook-f"></i></a>
+                    <a href=#><i class="fab fa-twitter"></i></a>
+                    <a href=#><i class="fab fa-instagram"></i></a>
+                    <a href=#><i class="fab fa-youtube"></i></a>
+                    <a href=#><i class="fab fa-tripadvisor"></i></a>
+                </div>         
+            
+            </div>
+            <div class="footer-content" id="section2">
+                <h2>Links</h2>
+                <ul>
+                    <a href=tickets.html>Tickets</a>
+                    <a href=shortbreaks.html>Short breaks</a>
+                    <a href=info.html>Info</a>
+                    <a href=events.html>Events</a>
+                </ul>
+                <ul>
+                    <a href=rides.css>rides</a>
+                    <a href=#>Cookie policy</a>
+                    <a href=info.html>FAQ</a>
+                    <a href=info.html>Contact us</a>
+                </ul>
+            
+            
+            </div>
+            <div class="footer-content" id="section3">
+                <h2>Main Links</h2>
+                <div id="links">
+                    <a href="info.html">Opening times</a>
+                    <a href="tickets.html">Book a ticket!</a>
+                    <a href="shortbreaks.html">Short Breaks</a>
+                </div>    
+            
+            </div>
+        </footer>
+        <div id="footer-bottom">
+            <p>&copy;Copyright 2019 ParkAlley theme park</p>
+        </div>
+    </body>
+</html>

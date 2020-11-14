@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(33, 33, 33);
+}
+
+h2,#row .fas,.far{
+    color: yellow
+}
+
+p{
+    color:white; 
+}
+.box{
+    background-color:rgb(61, 61, 61);
+    border: 2px solid rgb(33, 33, 33);;
+}
+.box:hover{
+    background-color:rgb(84, 84, 84);
+}
+.subHeading{
+    background-color:rgb(171, 171, 171);;
+}
+#subForm,.item:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+
+
+
+
+
+
+/*Info page colours*/
+.transport-option,#pass2{
+    background-color: rgb(84, 84, 84)
+}
+#transport-option-toggled1,#transport-option-toggled2,#transport-option-toggled3,#transport-option-toggled4,#pass1,#pass3{
+    background-color: rgb(61, 61, 61);
+}

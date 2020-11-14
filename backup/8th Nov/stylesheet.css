@@ -1,0 +1,701 @@
+*{
+    font-family: 'Staatliches', cursive;
+    max-width: 5000px;
+}
+
+a{
+    text-decoration: none;
+}
+head,body,html{
+    margin: 0;
+    padding:0;
+    zoom: 100%;
+    
+}
+h2{
+    color: orange;
+}
+p{
+    color: white;
+}
+body{
+    /*background: url(images/test.png);*/
+    background-color: rgb(76, 3, 102);
+}
+.header{
+    background-image: url("banner.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#Toggle{
+    display: none;
+}
+#drop-down-menu{
+    display: none;
+}
+.nav{
+    background-color: rgba(0,0,0,0.8);
+    padding-bottom: 10px;
+    padding-top:10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav ul{
+    padding:0px;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding:100px;
+    flex:1;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.nav a:hover{
+    background-color: rgb(0,0,0);
+    text-shadow: 2px 2px red;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.logo a{
+    padding:10px;
+    text-decoration: none;
+    font-size: 500%;
+    color: white;
+    border:5px solid white;
+    text-shadow: 2px 2px purple;
+    box-shadow: 2px 2px purple;
+}
+.logo a:hover{
+    background-color:rgba(0,0,0,0.5);
+    text-shadow: 2px 2px orange;
+    box-shadow: 2px 2px orange;
+}
+
+.banner{
+    background-color: black;
+    height: 30px;
+    font-size: 20px;
+    color:white;
+    position:relative;
+}
+.banner p{
+    margin: 0;
+    position:center;
+    transform: translate(-0%, 15%);
+}
+.menuBar{
+    display: flex;
+}
+.menuBar div{
+    flex:1;
+    background-color: rgb(128, 0, 173);
+    padding: 20px;
+}
+.menuBar h2{
+    display: flex;
+    margin: 0px;
+}
+
+.menuBar p{
+    display: flex;
+    margin: 0px;
+    margin-left: 45px;
+}
+#pass2{
+    background-color: rgb(157, 0, 212);
+}
+.menuBar a{
+    float:right;
+    margin-left: auto;
+    margin-top: -25px;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border: 4px solid white;
+    border-radius: 30px;
+}
+.menuBar a:hover{
+    color:yellow;
+    border: 4px yellow solid;
+    background-color: royalblue;
+    text-shadow: 2px 2px red;
+}
+
+.fa{
+    float: left;
+    color: white;
+    font-size: 300%;
+    margin-left: 40px;
+    transform: translate(-60%,10%);
+}
+
+#pass2 .fa{
+    color: gold;
+}
+.content1{
+    height: 250px;
+    padding:0;
+    text-align: center;
+}
+.content1 h2{
+    margin: 0px;
+    padding: 20px;
+}
+.content1 div{
+    display:inline-block;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 20px;
+    margin-top: 50px
+}
+.content1 div a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    border: 5px white solid;
+    border-radius: 30px;
+}
+
+.content1 div a:hover{
+    color:yellow;
+    border: 5px yellow solid;
+    background-color: royalblue;
+    border-radius: 30px;
+    text-shadow: 2px 2px red;
+}
+
+.subHeading {
+    color: white;
+    background-color: black;
+    height:50px;
+}
+.subHeading h2{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(76, 3, 102);
+}
+
+#cover{
+    display: flex;
+    background-color: rgb(76, 3, 102);   
+}
+.content2 ul{
+    flex:1;
+    margin: 0px;
+    padding: 0px;
+    height:120px;   
+    display: flex;
+    
+}
+.content2 h2{
+    text-align: center;
+}
+.content2 p{
+    text-align: center;
+}
+.content2 .container{
+    height:400px;
+    width:300px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px
+}
+.content2 .box-containers{
+    text-align: center;
+    
+}
+.box{
+    background-color: blue;
+    height: 100%;
+    flex: 1;
+    background-color: rgb(128, 0, 173);
+    border:1px solid rgb(76, 3, 102);
+    
+}
+.box img{
+    width:60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+}
+.box p{
+    text-align: center;
+    text-shadow: 1px 1px orange;
+    font-size: 14px;
+    margin: 10px;
+}
+.content3{
+    margin: 0 auto;
+    background:url(images/background1.jpg);
+    background-size: cover;
+}
+.content3 h4{
+    margin: 0px;
+}
+.content3 .info{
+    color:white;
+    font-weight: 900;
+    padding: 20px 20px 20px 40%;
+    text-shadow: 0.5px 0.5px black;
+}
+.content4{
+    text-align: center;
+    
+}
+
+.content4 h2{
+    margin: 0px;
+    padding: 10px;
+}
+.content4 ul{
+    display:inline-flex;
+    padding: 0px;
+    margin: 0px;
+}
+.item{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    padding-top: 10px;
+}
+.item:hover{
+    background-color: rgb(128, 0, 173);
+
+}
+.item h2{
+    font-size: 20px;
+}
+.item p{
+    font-size: 13px;
+    margin: 10px;
+}
+#row .fas,.far{
+    color: orange;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#reviews p{
+    margin: 0px;
+    padding:20px;
+    text-align: center;
+}
+#reviews .container{
+    height:400px;
+    width:300px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    
+}
+#reviews .Box-container{
+    text-align: center;
+}
+
+#subForm{
+    height: 100%;
+    background-color: rgb(128, 0, 173);
+    text-align: center;
+}
+#subForm h2{
+    padding-top: 10px;
+    margin: 0px;
+}
+#subForm p{
+    padding: 5px;
+    margin: 0px;
+}
+#textBox1{
+    flex:1;
+    margin-left: 400px;
+}
+#textBox2{
+    flex:1;
+    margin-right: 400px;
+}
+#subForm ul{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#subForm input{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#subForm button{
+    margin: 10px;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    height: 200px;
+    display: block;
+    background-color: black;
+}
+
+
+
+/*----------------------------EVENTS PAGE CSS-------------------------*/
+
+.title{
+    color: orange;
+    text-align: center;
+}
+
+.eventBox{
+    height:500px;
+    width: 100%;
+    background-color: white;
+    margin: 5px;
+    flex: 1;
+}
+.eventBox h2{
+    margin: 0px;
+    
+}
+#container ul{
+    text-align: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+}
+.eventBox2{
+    height:300px;
+    width: 100%;;
+    background-color: white;
+    margin: 5px;
+    display:inline-block;
+    flex: 1;
+}
+    
+#event1{
+    width: 100%;
+    height: 80%;
+}
+
+.fas{
+    color:orange;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.event-content ul{
+    flex:1;
+    margin: 0px;
+    padding: 0px;
+    height:120px;   
+    display: flex;
+    
+}
+.event-content{
+    height:1000px;
+}
+
+.icon{
+    text-align: center;    
+}
+
+/*----------------------------INFO PAGE CSS-------------------------*/
+iframe{
+    width: 50%;
+}
+.label-info{
+    display: inline-block;
+}
+.label{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 4px solid black;
+}
+#label1{
+    background-color: green;
+}
+#label2{
+    background-color: blue;
+}
+#label3{
+    background-color: red;
+}
+#label4{
+    background-color:yellow;
+}
+#callender {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+.info-container{
+    text-align: center;
+}
+.transport-option{
+    text-align: left;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    border-top-left-radius: 30px;
+    background-color: rgb(157, 0, 212);
+    cursor: pointer;
+    
+}
+
+.transport-option .fas{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#transport-options-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#transport-option-toggled1,#transport-option-toggled2,#transport-option-toggled3,#transport-option-toggled4{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color:  rgb(128, 0, 173);
+    transition: all 500ms linear;
+    height:0px;
+    overflow: hidden;
+
+    
+}
+#transport-option-toggled1 p,#transport-option-toggled2 p,#transport-option-toggled3 p,#transport-option-toggled4 p{
+    margin: 0px;
+    padding: 10px;
+}
+#Toggle-option1,#Toggle-option2,#Toggle-option3,#Toggle-option4{
+    display: none;
+}
+
+#Toggle-option1:checked + #transport-option-toggled1,#transport-option-toggled1 p{
+    transition: all 500ms linear;
+    height: 150px;
+}
+#Toggle-option2:checked + #transport-option-toggled2{
+    transition: all 500ms linear;
+    height: 150px;
+}
+#Toggle-option3:checked + #transport-option-toggled3{
+    transition: all 500ms linear;
+    height: 150px;
+}
+#Toggle-option4:checked + #transport-option-toggled4{
+    transition: all 500ms linear;
+    height: 150px;
+}
+
+#map iframe{
+    width: 100%;
+}
+
+#rides-section{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-size: 50px;
+    height: 500px;
+}
+#rides-section h2{
+    margin: 0px;
+    padding:0px;
+}
+#rides-section a{
+    margin: 0px;
+
+}
+#rides-section a{
+    color: white;
+}
+#rides-section ul{
+    margin: 0px;
+    padding: 20px;
+}
+/*This is for the responsivenes, is the screen width falls below 700px, all the CSS under this will be called*/
+@media screen and (max-width:700px){
+    .header{
+        height:500px;
+    }
+    .logo a{
+    font-size: 300%;
+    }
+    .nav a{
+        display: none;
+        padding: 5px;
+        margin:10px;
+
+    }
+    .nav{
+        padding-top: 0;
+        padding-bottom: 0;      
+        
+        
+    }
+    #drop-down-menu{
+        float: left;
+        display: block;
+        margin:10px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+    .nav ul{
+        padding:6px;
+        transform:scale(1,0);
+        margin-top: 0px;
+        
+    }
+
+    #Toggle{
+        background-color:rgba(0,0,0,0.8);
+        display:hidden;
+    }
+    
+    #Toggle:checked + .nav a{
+        display:flex;
+        margin-top: 4px
+    }
+    #Toggle:checked + .nav ul{
+        transform:scale(1);
+        transform-origin:top;
+        transition: transform 400ms ease-in-out;
+        margin-top: 41px;
+    }
+    
+    .content1{
+        height:340px;
+    }
+    .content1 div{
+        margin: 0;
+        display: block;
+    }
+    .content2 #cover{
+    display: block;
+    
+    
+    }
+        
+    .content3 .info{
+    color:white;
+    text-shadow: 1px 1px black;
+    font-weight: 900;
+    padding: 10px 10px 10px 10%;
+    }
+    .content4 .infoBox{
+    height:700px;;
+    width:70%;
+    background-color: white;
+    display: inline-block;
+    margin: 30px;
+    }
+    .menuBar{
+    display: block;
+    }
+    .item{
+    padding: 0px;
+    margin-bottom: 20px;
+    width: 100px;
+    padding-top: 10px;
+    }
+    
+    
+    
+    /*Events page reponsive section*/
+    #container ul{
+        display: block;
+    }
+    .event-content ul{
+      display: block;
+    }
+    .transport-option{
+  
+        margin-left: 10%;
+        margin-right: 10%;
+
+    
+    }
+    #transport-option-toggled1,#transport-option-toggled2,#transport-option-toggled3,#transport-option-toggled4{
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    iframe{
+    width: 80%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1377px){
+    .logo a{
+    font-size: 300%;
+    }
+    .nav a{
+    padding-left:70px;
+    padding-right:70px;
+    }
+
+}
+@media screen and (max-width:826px){
+    .content2 figure{
+        width:100%;
+        height:250px;
+    }
+    #textBox1{
+    flex:1;
+    margin-left: 0px;
+    }
+    #textBox2{
+        flex:1;
+        margin-right: 0px;
+    }
+    #subForm ul{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+
+    }
+}
+@media screen and (max-width:1393px){
+    .nav a{
+    padding-left:30px;
+    padding-right:30px;
+}
+
+}

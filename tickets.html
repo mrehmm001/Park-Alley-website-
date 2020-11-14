@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <title>ParkAlley</title>
+        <meta charset="utf-8">
+        <meta name="description" content="A fun park for everyone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
+        <link rel = "stylesheet" type = "text/css" href = "colours.css" />
+        <link rel = "stylesheet" type = "text/css" href = "ticketscss.css" />
+        <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1d87a9cfe7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="main">           
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">TICKETS</a>
+                    <p>Save 50% from booking online!</p>
+                </div>
+                <input type="checkbox" id="Toggle">
+                <nav class= "nav" align=right>
+                    <div class="nav-logo"><img src="images/Logo/logo.png"></div>
+                    <label id="drop-down-menu" for="Toggle">&#9776;</label>
+                    <ul>
+                        <li><a class="active" href="tickets.html">Tickets</a></li>
+                        <li><a href="shortbreaks.html">Short breaks</a></li>
+                        <li><a href="info.html">Info</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="rides.html">Rides</a></li>
+
+                    </ul>
+                </nav>        
+                <div class="cover-img">
+                    <div class="overlay"></div>
+                    <video class="promo-video" src="images/rides-images/rides-banner.mp4" autoplay muted loop></video>                    
+                </div>     
+            </div>
+        </div>    
+        
+        <div class="subHeading">
+            <h2>Tickets</h2> 
+        </div>
+        <div class="info-header">
+            <h2>TICKETS &amp; DEALS</h2>
+            <p>Save up to <span>50%!</span> by booking online!</p>
+        </div>
+            
+        <div id="ticket-option">
+            <ul>
+                <label class="tickets" id="one" for="ticket-toggle1">
+                    <div class="ticket-header">
+                        <h2><i class="fas fa-ticket-alt"></i> One day ticket</h2>
+                    </div>
+                    <p>Price per person</p>
+                    <div class="ticket-price">
+                        <div class="wrap" id="detail">
+                            <p>From online</p>
+                            <h2>£25</h2>
+                        </div>
+                        <div class="wrap">
+                            <p>From Site</p>
+                            <h2><strike><h2>£50</h2></strike></h2>
+                        </div>                      
+                    </div>
+                    <div class="ticket-img">
+                        <img src="images/tickets-page/one-day-pass.jpg" alt="One day pass">
+                    </div>
+                    <p>50% off by paying online!</p>
+                    <div class="ticket-features">
+                        <li>Entry for a day of exciting fun</li>
+                        <li>Have access to 30 thrilling rides!</li>
+                        <li>You'll save 50% off by booking online!</li>                                      
+                    
+                    </div>
+                
+                </label>
+                <input id="ticket-toggle1" type="checkbox">
+                <div id="ticket-pop-up-1">
+                    <div class="ticket-info">
+                        <label for="ticket-toggle1"><i class="fas fa-times"></i></label>
+                        <div class="ticket-info-content">
+                            <label id="toggle-nav" for="toggle">&#9776;</label>
+                            <input id="toggle" type="checkbox">
+                            <div class="popup-navbar">                                
+                                <label for="ticket-check1">Daily tickets</label>
+                                <label for="ticket-check2">Deals</label>
+                                <label for="ticket-check3">Extras</label> 
+                                <label for="ticket-check4">Promotional code</label>
+                                <div class="links">
+                                    <label for="ticket-check4"><i class="fas fa-question"></i></label>
+                                    <label for="ticket-check4"><i class="fas fa-shopping-cart"></i></label>
+                                </div>
+                            </div>
+                            <input id="ticket-check1" type="radio" name="drone" checked>
+                            <div class="section1">
+                                <div class="callender">
+                                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%239E69AF&amp;ctz=Europe%2FLondon&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="buy-now">
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>1 day ticket</h2>
+                                                <p>A ticket for 1 day for 1 person</p>
+                                                <p><span>£25</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>1 day Christmas special ticket</h2>
+                                                <p>Have special access to a christmas event!</p>
+                                                <p><span>£35</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>1 day ticket with helper</h2>
+                                                <p>1 day ticket with a disabled helper</p>
+                                                <p><span>£30</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <input id="ticket-check2" type="radio" name="drone">
+                            <div class="section2">
+                                
+                            </div>
+                            <input id="ticket-check3" type="radio" name="drone">
+                            <div class="section4">
+                            </div>  
+                            <input id="ticket-check4" type="radio" name="drone">
+                            <div class="section4">
+                            </div>                         
+                            
+                        
+                        
+                        </div>
+                    </div>                
+                </div>
+                <label class="tickets" id="two" for="ticket-toggle2">
+                    <div class="ticket-header">
+                        <h2><i class="fas fa-ticket-alt"></i> Seasonal ticket</h2>
+                    
+                    </div>
+                    <p>Price per person</p>
+                    <div class="ticket-price">
+                        <div class="wrap" id="detail">
+                            <p>From online</p>
+                            <h2>£60</h2>
+                        </div>
+                        <div class="wrap">
+                            <p>From Site</p>
+                            <h2><strike><h2>£120</h2></strike></h2>
+                        </div>                  
+                    
+                    </div>
+                    <div class="ticket-img">
+                        <img src="images/tickets-page/annual-pass.jpg" alt="Annual pass">
+                    </div>
+                    <p>Pay once, come back for the season!</p>
+                    <div class="ticket-features">
+                        <li>The whole park becomes yours for a season!</li>
+                        <li>Bring one friend along for free!</li>
+                        <li>Have special access to events</li>                        
+                        <li>Free 1 day overnight at our hotel!</li>  
+                        <li>get Meal deal and other vouchers!</li>  
+                    
+                    </div>
+                    
+                </label>
+                <input id="ticket-toggle2" type="checkbox">
+                <div id="ticket-pop-up-2">
+                    <div class="ticket-info">
+                        <label for="ticket-toggle2"><i class="fas fa-times"></i></label>
+                        <div class="ticket-info-content">
+                            <label id="toggle-nav" for="toggle">&#9776;</label>
+                            <input id="toggle" type="checkbox">
+                            <div class="popup-navbar">                                
+                                <label for="ticket-check5">Seasonal tickets</label>
+                                <label for="ticket-check6">Deals</label>
+                                <label for="ticket-check7">Extras</label> 
+                                <label for="ticket-check8">Promotional code</label>
+                                <div class="links">
+                                    <label for="ticket-check9"><i class="fas fa-question"></i></label>
+                                    <label for="ticket-check9"><i class="fas fa-shopping-cart"></i></label>
+                                </div>
+                            </div>
+                            <input id="ticket-check5" type="radio" name="drone2" checked>
+                            <div class="section1">
+                                <div class="callender">
+                                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%239E69AF&amp;ctz=Europe%2FLondon&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="buy-now">
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>1 day ticket</h2>
+                                                <p>A seasonal ticket for 1 person</p>
+                                                <p><span>£60</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>A seasonal Christmas special ticket</h2>
+                                                <p>Have special access to a christmas event!</p>
+                                                <p><span>£75</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>A seasonal ticket with helper</h2>
+                                                <p>1 day ticket with a disabled helper</p>
+                                                <p><span>£70</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <input id="ticket-check6" type="radio" name="drone2">
+                            <div class="section2">
+                                
+                            </div>
+                            <input id="ticket-check7" type="radio" name="drone2">
+                            <div class="section4">
+                            </div>                         
+                            
+                        
+                        
+                        </div>
+                        
+                    </div>  
+                </div>
+            </ul>
+            <ul>
+                <label class="tickets" id="three" for="ticket-toggle3">
+                    <div class="ticket-header">
+                        <h2><i class="fas fa-ticket-alt"></i> Annual ticket</h2>
+                    
+                    </div>
+                    <p>Price per person</p>
+                    <div class="ticket-price">
+                        <div class="wrap" id="detail">
+                            <p>From online</p>
+                            <h2>£90</h2>
+                        </div>
+                        <div class="wrap">
+                            <p>From Site</p>
+                            <h2><strike><h2>£180</h2></strike></h2>
+                        </div>  
+                    </div>
+                    <div class="ticket-img">
+                        <img src="images/tickets-page/season-pass.jpg" alt="Season pass">            
+                    </div>
+                    <p>Come back again and again!</p>
+                    <div class="ticket-features">
+                        <li>12 month entry to ParkAlley!</li>
+                        <li>Bring one friend along for free!</li>
+                        <li>Have special access to events</li>                        
+                        <li>Free 5 days overnight at our hotel!</li> 
+                        <li>Get 5 free 1 day ParkAlley tickets!</li> 
+                        <li>get Meal deal and other vouchers!</li>  
+                    </div>
+                
+                </label>
+                <input id="ticket-toggle3" type="checkbox">
+                <div id="ticket-pop-up-3">
+                    <div class="ticket-info">
+                        <label for="ticket-toggle3"><i class="fas fa-times"></i></label>
+                        <div class="ticket-info-content">
+                            <label id="toggle-nav" for="toggle">&#9776;</label>
+                            <input id="toggle" type="checkbox">
+                            <div class="popup-navbar">                                
+                                <label for="ticket-check9">Annual tickets</label>
+                                <label for="ticket-check10">Deals</label>
+                                <label for="ticket-check11">Extras</label> 
+                                <label for="ticket-check12">Promotional code</label>
+                                <div class="links">
+                                    <label for="ticket-check9"><i class="fas fa-question"></i></label>
+                                    <label for="ticket-check9"><i class="fas fa-shopping-cart"></i></label>
+                                </div>
+                            </div>
+                            <input id="ticket-check9" type="radio" name="drone3" checked>
+                            <div class="section1">
+                                <div class="callender">
+                                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%239E69AF&amp;ctz=Europe%2FLondon&amp;showTitle=0&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=1&amp;showTz=1" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                                </div>
+                                <div class="buy-now">
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>Annual ticket</h2>
+                                                <p>A ticket for the whole year for 1 person</p>
+                                                <p><span>90</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>Annual Christmas special ticket</h2>
+                                                <p>Have special access to a christmas event!</p>
+                                                <p><span>£112</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                    <div class="item">
+                                        <ul>
+                                            <div class="item-img"></div>
+                                            <div class="item-info">
+                                                <h2>Annual day ticket with helper</h2>
+                                                <p>1 day ticket with a disabled helper</p>
+                                                <p><span>£100</span></p>
+                                            </div>
+                                            <a href="#">Buy now!</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <input id="ticket-check10" type="radio" name="drone3">
+                            <div class="section2">
+                                
+                            </div>
+                            <input id="ticket-check11" type="radio" name="drone3">
+                            <div class="section4">
+                            </div>
+                            <input id="ticket-check12" type="radio" name="drone3">
+                            <div class="section4">
+                            </div>   
+                            
+                        
+                        
+                        </div>
+                    </div>  
+                </div>
+                <a class="tickets" id="four" href="shortbreaks.html">
+                    <div class="ticket-header">
+                        <h2><i class="fas fa-bed"></i> Shortbreaks</h2>
+                        
+                    </div>
+                    <p>Price per person</p>
+                    <div class="ticket-price">
+                        <div class="wrap">
+                            <p>From online/From site</p>
+                            <h2>£30</h2>
+                        </div>
+                    </div>
+                    <div class="ticket-img">
+                        <img src="images/tickets-page/shortbreak.jpg" alt="Shortbreak">
+                    </div>
+                    <p>Stay at our hotel!</p>
+                    <div class="ticket-features">
+                        <li>Get 3 free 1 day ParkAlley tickets!</li>
+                        <li>Free breakfast and meals!</li>
+                        <li>Have special access to events</li>                        
+                        <li>Decide to choose from 3 hotel options</li> 
+                    
+                    </div>
+                </a>
+            </ul> 
+        </div> 
+        <div class="info-header">
+            <h2>Make the most of your day!</h2>
+                <p>Save <span>10%</span> online by booking additional extras!</p>
+            </div>
+            
+            <div id="extras-container">
+                <div class="extra">
+                    <div class="extra-img">
+                        <img src="images/tickets-page/car-park-img.jpg">
+                    </div>
+                    <div class="extra-info-box">
+                        <div class="heading">Car Park</div>
+                        <div class="extra-info">Our car park is free, but you can reserve a car park for only £7 so you don't have to worry about not finding any parking space!</div>
+                    </div>
+                    <div class="extra-info-button">
+                        <div class="price"><span>from £7</span></div>
+                        <a class="button">buy now</a>
+                    </div>
+                </div>
+                <div class="extra">
+                    <div class="extra-img">
+                        <img src="images/tickets-page/meal-deal.jpg">
+                    </div>
+                    <div class="extra-info-box">
+                        <div class="heading">Meal deal</div>
+                        <div class="extra-info">Save 20% off by booking online!</div>
+                    </div>
+                    <div class="extra-info-button">
+                        <div class="price"><span>from £10.50</span></div>
+                        <a class="button">buy now</a>
+                    </div>
+                </div>
+                <div class="extra">
+                    <div class="extra-img">
+                        <img src="images/tickets-page/photobooth.jpg">
+                    </div>
+                    <div class="extra-info-box">
+                        <div class="heading">Photobooth</div>
+                        <div class="extra-info">Turn your day into a photo album! All photos will be sent to your phone.</div>
+                    </div>
+                    <div class="extra-info-button">
+                        <div class="price"><span>from £7</span></div>
+                        <a class="button">buy now</a>
+                    </div>
+                </div>            
+            </div>
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+              
+        <div id="subForm">
+            <h2>Sign up to recieve newsletters</h2>
+            <ul>
+                <div id="textBox1">
+                    <p>First-Name</p>
+                    <input type="text" name="firstname" value="FirstName">
+                </div>
+                <div id="textBox2">
+                    <p>Second-Name</p>
+                    <input type="text" name="Email" value="Email">
+                </div>
+            </ul>
+            <p><input type="checkbox">I agree to recieve information about ParkAlley through email</p>
+            <p><input type="checkbox">I have read and accepted privacy policy</p>
+            <button>Subscribe!</button>
+        </div>
+        <footer>
+            <div class="footer-content 1"id="section1">
+                <h2>ParkAlley Theme park</h2>
+                <p>ParkAlley Theme park</p>
+                <p>Eddlewood</p>
+                <p>Eddlewood, ML3 1UD, Park Row</p>
+                <p>Telephone: 078 8151 6888</p>
+                <div id="social-media">
+                    <a href=#><i class="fab fa-facebook-f"></i></a>
+                    <a href=#><i class="fab fa-twitter"></i></a>
+                    <a href=#><i class="fab fa-instagram"></i></a>
+                    <a href=#><i class="fab fa-youtube"></i></a>
+                    <a href=#><i class="fab fa-tripadvisor"></i></a>
+                </div>         
+            
+            </div>
+            <div class="footer-content" id="section2">
+                <h2>Links</h2>
+                <ul>
+                    <a href=tickets.html>Tickets</a>
+                    <a href=shortbreaks.html>Short breaks</a>
+                    <a href=info.html>Info</a>
+                    <a href=events.html>Events</a>
+                </ul>
+                <ul>
+                    <a href=rides.css>rides</a>
+                    <a href=#>Cookie policy</a>
+                    <a href=info.html>FAQ</a>
+                    <a href=info.html>Contact us</a>
+                </ul>
+            
+            
+            </div>
+            <div class="footer-content" id="section3">
+                <h2>Main Links</h2>
+                <div id="links">
+                    <a href="info.html">Opening times</a>
+                    <a href="tickets.html">Book a ticket!</a>
+                    <a href="shortbreaks.html">Short Breaks</a>
+                </div>    
+            
+            </div>
+        </footer>
+        <div id="footer-bottom">
+            <p>&copy;Copyright 2019 ParkAlley theme park</p>
+        </div>
+    </body>
+</html>

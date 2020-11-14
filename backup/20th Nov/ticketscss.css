@@ -1,0 +1,82 @@
+
+#ticket-option{
+    margin: 1% 20% 1% 20%;
+}
+#ticket-option ul{
+    display: inline-flex;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: wrap;
+    width: 49%;
+    
+    
+}
+.tickets{
+    flex: 1;
+    background-color: white;
+    height: 500px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.tickets:hover{
+    transition: all 500ms linear;
+    transform: translate(0%,-5%);
+}
+
+#ticket-pop-up-1,#ticket-pop-up-2,#ticket-pop-up-3,#ticket-pop-up-4{
+    position: fixed;
+    height: 0px;
+    width: 0px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    left: 0%;
+    top: 0%;
+    display: block;
+    overflow:hidden;
+}
+#ticket-toggle1:checked+#ticket-pop-up-1,#ticket-toggle2:checked+#ticket-pop-up-2,#ticket-toggle3:checked+#ticket-pop-up-3,#ticket-toggle4:checked+#ticket-pop-up-4{
+    height: 100%;
+    width: 100%;
+}
+#ticket-pop-up-1 .ticket-info,#ticket-pop-up-2 .ticket-info,#ticket-pop-up-3 .ticket-info,#ticket-pop-up-4 .ticket-info{
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 500ms linear;
+    height: 60%;
+    width: 0px;
+    background-color: white;
+    transform: translate(0% ,30%);
+}
+
+#ticket-toggle1:checked+#ticket-pop-up-1 .ticket-info,#ticket-toggle2:checked+#ticket-pop-up-2 .ticket-info,#ticket-toggle3:checked+#ticket-pop-up-3 .ticket-info,#ticket-toggle4:checked+#ticket-pop-up-4 .ticket-info{
+    transition: all 500ms linear;
+    transform: translate(0% ,30%);
+    width: 900px;
+}
+
+#ticket-toggle1,#ticket-toggle2,#ticket-toggle3,#ticket-toggle4{
+    display: none;
+}
+
+#Deals{
+    height:400px;
+}
+@media screen and (max-width:700px){
+    #ticket-option ul{
+        width: 100%;
+
+
+    }
+    #ticket-toggle1:checked+#ticket-pop-up-1 .ticket-info,#ticket-toggle2:checked+#ticket-pop-up-2 .ticket-info,#ticket-toggle3:checked+#ticket-pop-up-3 .ticket-info,#ticket-toggle4:checked+#ticket-pop-up-4 .ticket-info{
+    transition: all 500ms linear;
+    transform: translate(0% ,30%);
+    width: 100%;
+    }
+}
+@media screen and (max-width:1198px){
+    #ticket-option{
+    margin: 1% 10% 1% 10%;
+    } 
+}
